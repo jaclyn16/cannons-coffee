@@ -25,7 +25,7 @@ body {
 
 main {
   background-color: white;
-  /*   text-align: center; */
+  text-align: center;
   border-bottom: 5px solid #ffd034;
   border-top: 5px solid #ffd034;
 }
@@ -49,10 +49,10 @@ h2 {
   font-weight: 300;
   font-size: 2.5rem;
 }
-h3 {
+/* h3 {
   font-weight: 300;
   font-size: 1.75rem;
-}
+} */
 nav ul {
   list-style-type: none;
   padding: 1rem;
@@ -86,10 +86,10 @@ footer {
 .main-card .button {
   background-color: #209d5c;
 }
-.blue-card {
+/* .blue-card {
   background-color: #cadbf8;
   padding: 1rem;
-}
+} */
 
 p {
   margin: 0;

@@ -9,15 +9,20 @@ html {
 *:after {
   box-sizing: inherit;
 }
+:root {
+    --main-text-color: #000000;
+    --button-color: #209d5c;
+    --main-font: Poppins;
+}
 
 img {
   max-width: 100%;
 }
 
 body {
-  font-family: Poppins;
+  font-family: var(--main-font);
   font-size: 1.125rem;
-  color: black;
+  color: var(--main-text-color);
   background-color: #063270;
   margin: 0;
   padding: 0;
@@ -84,7 +89,7 @@ footer {
   gap: 2rem;
 }
 .main-card .button {
-  background-color: #209d5c;
+  background-color: var(--button-color);
 }
 /* .blue-card {
   background-color: #cadbf8;

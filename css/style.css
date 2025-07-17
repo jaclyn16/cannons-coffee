@@ -9,15 +9,25 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+:root {
+--main-text-color: #000000;
+--card-button-color: #06327d;
+--main-font: Poppins;
+}
 img {
   max-width: 100%;
+  
+
+}
+.grid-container img {
+    border-radius: 10px;
+
 }
 
 body {
-  font-family: Poppins;
+  font-family: var(--main-font);
   font-size: 1.125rem;
-  color: black;
+  color: var(--main-text-color);
   background-color: #063270;
   margin: 0;
   padding: 0;
@@ -71,7 +81,7 @@ footer {
   padding: 0.5rem;
   border-radius: 5px;
   text-decoration: none;
-  background-color: #06327d;
+  background-color: var(--card-button-color);
   color: white;
   margin-top: 1rem;
   margin-bottom: 1rem;
